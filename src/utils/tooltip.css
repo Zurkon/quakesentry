@@ -1,0 +1,10 @@
+.leaflet-tooltip {
+  color: #fff;
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+.leaflet-bottom, .leaflet-right {
+  z-index: 500;
+}
