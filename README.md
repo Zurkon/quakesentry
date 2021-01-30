@@ -1,3 +1,31 @@
+<h1 align="center">Quake Sentry</h1> 
+
+<div align="center">
+
+  <img src="https://raw.githubusercontent.com/Zurkon/RepoAssets/main/quakesentry/quakesentry.png" />
+
+A Earthquake Monitoring app built with [`React`](https://facebook.github.io/react/), [`leaflet`](https://github.com/Leaflet/Leaflet) and data from [`USGS`](https://earthquake.usgs.gov/).
+
+</div>
+
+## Libraries
+
+This project was made using:
+
+- [`React`](https://facebook.github.io/react/) - Library for building user interfaces.
+- [`Material-UI`](https://github.com/mui-org/material-ui) - Reusable components made with Material Design.
+- [`leaflet`](https://github.com/Leaflet/Leaflet) - A javaScript library for mobile-friendly interactive maps.
+- [`react-leaflet`](https://github.com/PaulLeCam/react-leaflet) - React components for Leaflet maps.
+- [`styled-components`](https://github.com/styled-components/styled-components) - Styling components with CSS in JS.
+- [`react-icons`](https://github.com/react-icons/react-icons) - svg react icons of popular icon packs.
+
+# Features
+
+- The app will always open with the last 200 earthquakes across the globe.
+- Search and Filter for earthquakes.
+- By **default** every search has a limit of 1000 results.
+- Color Scale to indicate the magnitude of each earthquake, following this [`scale`](http://www.geo.mtu.edu/UPSeis/magnitude.html).
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
